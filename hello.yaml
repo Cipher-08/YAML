@@ -1,0 +1,27 @@
+"Apple": I am a fruit
+1: "This is a second line for this"
+
+---
+#--- distiguishes between the documents 
+
+#Lists
+-mango 
+-apple 
+-delhi
+-any index
+
+---
+cities:
+ -new delhi
+ -kanpur
+ -chd
+
+---
+
+cities : [new delhi , kanpur , chd]
+
+---
+
+{mango: "This is something" , 1: That you won't understand , point: if you know the classes }
+
+---
