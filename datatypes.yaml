@@ -23,4 +23,5 @@ Message: This will be treated as asingle line but looking like multiple line
 
 number: 56373
 Marks: 98.89
-booleanValue: yes
+booleanValue: yes #TRUE True true y Y 
+#same for no / false /FALSE / false
