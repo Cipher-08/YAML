@@ -25,3 +25,14 @@ number: 56373
 Marks: 98.89
 booleanValue: yes #TRUE True true y Y 
 #same for no / false /FALSE / false
+
+
+#specify the datatype : use !! before just
+zero: !!int 0
+positiveNumber: !!int 56
+negativeNumber: !!int -45
+commaValues: !!int +540,000 #540,000
+binaryNum: !!int 0b11001
+octalNum: !!int 06574
+hexa: !!int 0x45
+ 
