@@ -1,0 +1,20 @@
+student: !!seq #student have some sequence type of data 
+ -marks 
+ -name
+ -roll_no
+
+#like this also 
+cities: [newDelhi , Mumbai]
+
+
+#Some of the keys of the sequence will be empty 
+#that's knowns as "Sparse Sequence"
+
+sparse seq:
+ -hey
+ -how
+ -
+ -
+ -Null
+ -sup
+ 
