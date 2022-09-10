@@ -1,7 +1,7 @@
 student: !!seq #student have some sequence type of data 
- -marks 
- -name
- -roll_no
+ - marks 
+ - name
+ - roll_no
 
 #like this also 
 cities: [newDelhi , Mumbai]
@@ -11,10 +11,9 @@ cities: [newDelhi , Mumbai]
 #that's knowns as "Sparse Sequence"
 
 sparse seq:
- -hey
- -how
+ - hey
+ - how
  -
  -
- -Null
- -sup
- 
+ - Null
+ - sup
