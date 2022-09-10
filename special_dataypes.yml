@@ -17,3 +17,31 @@ sparse seq:
  -
  - Null
  - sup
+
+#key value -> mapping 
+#nested mapping 
+name: Saksham Awasthi 
+role:
+ job: Swe
+ age: 18
+ Area: Dev
+
+
+#keys may have duplicate values 
+#!!pairs
+pair example: !!pairs
+ - job: student 
+ - job: teacher 
+#this will be a hashtable containing arrays 
+
+
+#!!set will alow to have unique values
+
+names: !!set
+ ? Saksham
+ ? Apoorv
+ ? Sahil
+ 
+
+ #disctionary  !!omap
+ People: !!omap
