@@ -35,4 +35,22 @@ commaValues: !!int +540,000 #540,000
 binaryNum: !!int 0b11001
 octalNum: !!int 06574
 hexa: !!int 0x45
- 
+
+#floating point numbers 
+marks: !!float 56.89
+infinite: !!float .inf
+
+not_a_number : .nan
+
+string: !!str "Thats "
+
+
+#null
+surname: !!null Null #null Null ~ 
+~: this is a null key 
+
+#dates and times 
+date: !!timestamp 2002-12-14
+india time : 2001-12-15T02:59:43.10 +5:30
+no time zone: 2001-12-15T02:59:43.10
+
