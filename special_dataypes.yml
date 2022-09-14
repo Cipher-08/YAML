@@ -44,4 +44,47 @@ names: !!set
  
 
  #disctionary  !!omap
- People: !!omap
+people: !!omap
+  -Saksham:
+     name: Saksham Awasthi
+     age : 18
+     height: 678
+  -Rahul:
+      name: Rahul Gupta 
+      age: 18
+      height: 789
+
+
+#reusing some properties
+
+likings: &base
+  fav fruit: mango
+  disliking: grapes
+
+person:
+  name: Saksham Awasthi
+  fav fruits: mango
+  dislikes: grapes
+
+
+#Anchors= what do you want to copy and where you want to copy
+
+likings: &likes
+  fav fruit: mango
+  dislikes: grapes
+  #now this is common in each 
+
+person1:
+  name: Saksham Awasthi
+  # fav fruit: mango
+  # dislikes: grapes
+  <<: *likes
+  #where you want to paste
+
+person2:
+  name: Sahil
+  fav fruit: mango
+  dislikes: grapes
+
+
+
